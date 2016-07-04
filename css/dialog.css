@@ -1,0 +1,38 @@
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+}
+#show-dialog{
+    background: url("../pic/bg.png");
+    background-repeat: repeat;
+}
+
+.item1{
+    height: 50px;
+    width: 100px;
+    border: 2px solid orange;
+}
+
+.item2{
+    height: 50px;
+    width: 100px;
+    border: 2px solid yellow;
+}
+
+.item3{
+    height: 50px;
+    width: 100px;
+    border: 2px solid greenyellow;
+}
+
+#show-dialog{
+    padding:0;
+    min-height: 1000px;
+    max-height:none ;
+    border: 1px solid black;
+}
+
+.dragActive { border:2px dotted orange; }
+.dropHover { border:1px dotted red; }
