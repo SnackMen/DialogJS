@@ -5,7 +5,7 @@ body{
 
 }
 #show-dialog{
-    background: url("../pic/bg.png");
+    /*background: url("../pic/bg.png");*/
     background-repeat: repeat;
 }
 
